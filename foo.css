@@ -1128,6 +1128,7 @@ p {
     max-width: 1200px;
     margin: 0 auto;
     width: 90%;
+    padding-right:60px;
 }
 
 #contact .contact-items {

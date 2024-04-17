@@ -422,7 +422,7 @@ p {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     padding: 100px;
     border-radius: 10px;
     background-image: url("idli.jpg");
@@ -457,7 +457,7 @@ p {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     padding: 100px;
     border-radius: 10px;
     background-image: url("dosa.jpg");
@@ -492,7 +492,7 @@ p {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     padding: 100px;
     border-radius: 10px;
     background-image: url("pongal.jpg");
@@ -527,7 +527,7 @@ p {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     padding: 100px;
     border-radius: 10px;
     background-image: url("vada.png");
@@ -562,7 +562,7 @@ p {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     padding: 100px;
     border-radius: 10px;
     background-image: url("veg\ biriyani.png");
@@ -597,7 +597,7 @@ p {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     padding: 100px;
     border-radius: 10px;
     background-image: url("masal\ dosa.jpg");
@@ -632,7 +632,7 @@ p {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     padding: 100px;
     border-radius: 10px;
     background-image: url("Adai.jpg");
@@ -667,7 +667,7 @@ p {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     padding: 100px;
     border-radius: 10px;
     background-image: url("medu\ vada.webp");
@@ -702,7 +702,7 @@ p {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     padding: 100px;
     border-radius: 10px;
     background-image: url("uppuma.jpg");
@@ -737,7 +737,7 @@ p {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     padding: 100px;
     border-radius: 10px;
     background-image: url("rasam.jpg");
@@ -772,7 +772,7 @@ p {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     padding: 100px;
     border-radius: 10px;
     background-image: url("pepper\ chicken.jpg");
@@ -807,7 +807,7 @@ p {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     padding: 100px;
     border-radius: 10px;
     background-image: url("fish\ fry.jpg");
@@ -842,7 +842,7 @@ p {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     padding: 100px;
     border-radius: 10px;
     background-image: url("koothu.jpg");
@@ -877,7 +877,7 @@ p {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     padding: 100px;
     border-radius: 10px;
     background-image: url("chicken\ 65.png");
@@ -912,7 +912,7 @@ p {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     padding: 100px;
     border-radius: 10px;
     background-image: url("eral.jpg");
@@ -947,7 +947,7 @@ p {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     padding: 100px;
     border-radius: 10px;
     background-image: url("fish\ gravy.jpg");
@@ -982,7 +982,7 @@ p {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     padding: 100px;
     border-radius: 10px;
     background-image: url("egg\ gravy.jpg");
@@ -1017,7 +1017,7 @@ p {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     padding: 100px;
     border-radius: 10px;
     background-image: url("pepper\ chicken.jpg");
@@ -1052,7 +1052,7 @@ p {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     padding: 100px;
     border-radius: 10px;
     background-image: url("fish.jpg");
@@ -1087,7 +1087,7 @@ p {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     padding: 100px;
     border-radius: 10px;
     background-image: url("fish\ fry.jpg");

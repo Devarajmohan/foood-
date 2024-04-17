@@ -1,0 +1,289 @@
+TITLE: im hungry
+
+menu lists
+  home
+  about
+  food menu
+  
+  contact (with feed back)
+ 
+
+food types:
+  1.veg(select any 10 img)
+  2.non-veg(select any 10 img)
+
+HOME:
+Welcome to "I'm Hungry"!
+
+Satisfy your cravings with our delicious array of culinary delights. At "I'm Hungry," we're passionate about bringing you the most mouthwatering dishes crafted with love and expertise. Whether you're a foodie exploring new tastes or simply seeking comfort in familiar flavors, our menu has something for everyone.
+
+Indulge in our diverse selection of appetizers, entrees, and desserts, all prepared using the freshest ingredients sourced locally. From savory classics to innovative culinary creations, each dish is meticulously crafted to tantalize your taste buds and leave you craving more.
+
+But "I'm Hungry" is more than just a place to eat—it's a gathering spot for friends and family to come together and share unforgettable moments over great food. Our warm and inviting atmosphere sets the stage for laughter, conversation, and culinary adventures.
+
+Join us at "I'm Hungry" and embark on a culinary journey like no other. Whether you're dining in or taking out, we promise an experience that will leave you saying, "I'm Hungry for more!"
+
+
+ABOUT:
+Welcome to "I'm Hungry," where passion meets expertise with over 50 years of culinary excellence.
+
+For half a century, "I'm Hungry" has been dedicated to serving up unforgettable dining experiences. Our journey began with a simple vision: to delight taste buds and create lasting memories through the art of cooking. Over the years, we've honed our craft, perfected our recipes, and cultivated a reputation for excellence in the culinary world.
+
+With each dish we serve, you'll taste the culmination of decades of experience and a commitment to quality that has stood the test of time. From our kitchen to your table, we take pride in every meal we prepare, ensuring that each bite is a true delight for the senses.
+
+But our legacy goes beyond just food. "I'm Hungry" is a place where hospitality reigns supreme, where every guest is treated like family. Whether you're joining us for a casual meal or a special occasion, you can expect nothing less than exceptional service and warm, welcoming ambiance.
+
+As we celebrate over 50 years of culinary excellence, we invite you to experience the magic of "I'm Hungry" for yourself. Join us as we continue to push the boundaries of taste and redefine the dining experience for generations to come.
+
+FOOF MENU:
+  VEG:
+   Idli
+Dosa
+Pongal --->
+Sambhar Vada
+Vegetable Biryani
+Masala Dosa
+Adai
+Medhu Vada
+Vegetable Upma
+Paruppu Rasam
+
+NON-VEG:
+
+Chettinad Chicken Curry
+Fish Curry
+Mutton Kothu Parotta
+Chicken 65
+Eral Varuval
+Meen Kuzhambu
+Chettinad Egg Curry
+Nattu Kozhi Varuval
+Vanjaram Meen Varuval
+Kongunadu Chicken Fry
+
+
+
+
+BASIC HTML
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M HUNGRY</title>
+    <link rel="stylesheet" href="foo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap" rel="stylesheet">
+
+
+    <body>
+        <div class="content">
+            <h1>Welcome</h1>
+            <p>
+                "Welcome to 'I'M HUNGRY'! We're your go-to destination for all things delicious and delightful. From savory delights to sweet treats, we've got your cravings covered. Join us on a culinary journey filled with flavor explosions and culinary adventures.
+                Get ready to tantalize your taste buds and satisfy your hunger in style." </p>
+
+        </div>
+
+
+
+        <div class="navigation">
+
+
+            <button class="hamburger" onclick="show()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </button>
+
+            <nav>
+
+                <ul>
+                    <li><a>Home</a></li>
+                    <li><a href="#" onclick="toggleAbout()">About</a></li>
+                    <li><a>Food Menu</a></li>
+                    <li><a>Location</a></li>
+                    <li><a>Contact</a></li>
+                    <li><a>Gallery</a></li>
+
+                </ul>
+
+            </nav>
+
+
+        </div>
+        <div class="navbar">
+            <a href="#" class="logo">I'M HUNGRY</a>
+        </div>
+
+        <script src="dee.js">
+        </script>
+
+
+
+    </body>
+
+</html>
+
+
+
+BASIC CSS:
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background: url("ds11.jpeg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        min-height: calc(100vh - 100px);
+        height: 100vh;
+    }
+    
+    .content h1 {
+        font-size: 50px;
+        color: white;
+        font-family: "Dancing Script", cursive;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .content p {
+        font-size: 15px;
+        font-weight: 10%;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        position: absolute;
+        top: 65%;
+        left: 55%;
+        transform: translate(-60%, -60%);
+    }
+    
+    a,
+    button {
+        cursor: pointer;
+    }
+    
+    nav {
+        position: absolute;
+        top: 100px;
+        right: 40px;
+        width: 300px;
+        backdrop-filter: blur(10px);
+    }
+    
+    .navigation {
+        position: fixed;
+        right: -500px;
+        width: 350px;
+        height: 100%;
+        background-color: rgba(10, 10, 10, 0.3);
+        transition: .5s;
+    }
+    
+    .navigation ul li {
+        color: #fff;
+        text-align: right;
+        text-transform: uppercase;
+        list-style-type: none;
+        font-size: 1.2em;
+        padding: 20px 30px;
+        border-bottom: 1pt;
+    }
+    
+    .hamburger,
+    .bar {
+        position: fixed;
+    }
+    
+    .hamburger {
+        display: block;
+        top: 5%;
+        left: 90%;
+        width: 30px;
+        height: 30px;
+        transform: translateY(-50%);
+        border: 0;
+        background: 0 0;
+    }
+    
+    .bar {
+        top: 3px;
+        background: #fffefe;
+        width: 100%;
+        height: 4px;
+        transition: all .3s ease-in;
+    }
+    
+    #bar2 {
+        top: 11px;
+    }
+    
+    #bar3 {
+        top: 19px;
+    }
+    
+    .navigation.active {
+        right: 0;
+    }
+    
+    .hamburger.open #bar1 {
+        background-color: #fff;
+        transform: rotate(45deg) translate(6px, 5px);
+    }
+    
+    .hamburger.open #bar2 {
+        background-color: transparent;
+    }
+    
+    .hamburger.open #bar3 {
+        background-color: #fff;
+        transform: rotate(-45deg) translate(6px, -5px);
+    }
+    
+    .navbar .logo {
+        font-size: 1.6rem;
+        font-weight: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        color: #fff;
+        text-decoration: none;
+        position: absolute;
+        top: 5%;
+        left: 18%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .about h2 {
+        color: #fff;
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .about p {
+        color: #fff;
+        font-size: 10px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+
+BASIC JS:
+
+function show() {
+    document.querySelector('.hamburger').classList.toggle('open')
+    document.querySelector('.navigation').classList.toggle('active')
+}
+
+
+        
